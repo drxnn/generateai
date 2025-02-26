@@ -1,0 +1,16 @@
+# Environment
+.env
+*.env
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# Node/React
+node_modules/
+dist/
+build/
