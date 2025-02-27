@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-dupbba%jl=6ozs7x)4qdq)-f%-cn$mh@cf*7lfjo*x(s0-izvb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
 
 
 # Application definition
@@ -69,6 +69,8 @@ TEMPLATES = [
         },
     },
 ]
+
+CSRF_TRUSTED_ORIGINS = ["http://localhost:5173"]
 
 WSGI_APPLICATION = 'backendDjango.wsgi.application'
 
