@@ -2,6 +2,7 @@
 .env
 *.env
 
+env/
 # Django stuff
 *.log
 *.pot
