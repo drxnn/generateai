@@ -1,9 +1,0 @@
-[33mcommit d96c3f634e235c0b3f89bfcf79ccdaee62f7a74c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
-Author: Drin Bratotini <drin.bratotini@gmail.com>
-Date:   Thu Feb 27 09:25:46 2025 -0500
-
-    incomplete assignment
-
- .gitignore                       |  1 [32m+[m
- backendDjango/avatar_api/main.py | 25 [32m++++++++++++++++++++++[m[31m---[m
- 2 files changed, 23 insertions(+), 3 deletions(-)
